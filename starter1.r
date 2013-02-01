@@ -1,5 +1,6 @@
-
 ### Shows object names and sizes in R.
+
+## Source : http://stackoverflow.com/questions/1358003/tricks-to-manage-the-available-memory-in-an-r-session
 
 .ls.objects <- function (pos = 1, pattern, order.by,
                         decreasing=FALSE, head=FALSE, n=5) {
